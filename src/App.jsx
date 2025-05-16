@@ -4,10 +4,6 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-  function yop() {
-    window.Telegram.WebApp.close();
-  }
   return (
     <>
       <button onClick={yop}>Close</button>
